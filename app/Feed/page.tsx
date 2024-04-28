@@ -1,6 +1,6 @@
 
-import { Item } from '@/Components/Item'
-import Navbar from '@/Components/Navbar'
+import ItemsList from '@/Components/Item'
+
 import React from 'react'
 
 export default function Feed() {
@@ -8,9 +8,8 @@ export default function Feed() {
 
     return (
         <>
-            <Navbar/>
-            <Item/>
-            <Item/>
+           
+           <ItemsList/>
             
           
         </>
